@@ -1,0 +1,131 @@
+<html>
+<head>
+
+	<link href='http://fonts.googleapis.com/css?family=IM+Fell+English+SC|Play' rel='stylesheet' type='text/css'>
+	<link href='css/normalize.css' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+		body { 
+         background-image:url('images/background_green.jpg');
+         margin: 0;
+         font-family: 'Play', sans-serif;
+         }
+
+       .main-wrapper{
+    		color: #6A955B;
+         	width: 90%; 
+         	margin: auto;
+         	background-color:purple;
+		}
+
+        .box,
+        .main-header,
+        .main-nav li{
+	        background-color: #000000;
+	        border:2px solid #a1a1a1;
+	        border-radius:10px;
+	        box-shadow: 0px 10px 20px #000000; 
+        }
+
+       	.box,
+       	.main-logo,
+       	.main-nav li {
+       		padding:10px 20px;
+       	}
+
+
+		.main-logo,
+		.main-nav,
+		.main-nav li {
+			display: inline-block;
+			font-family: 'IM Fell English SC', serif;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+		.main-logo {
+			font-size: 2em;
+		}
+		.main-nav li {		
+        	list-style: none;
+		}
+		.main-logo a, 
+		.main-nav a{
+		    color:#6A955B; 
+         	text-decoration: none;
+         	text-align: center; 
+		}
+		.main-logo a:visited, 
+		.main-nav a:visited{
+		    color:#6A955B; 
+		}
+		.main-logo a:active,
+		.main-nav a:active{
+		    color:#E19F7E
+
+		}
+		.main-logo a:hover,
+		.main-nav a:hover { 
+         color:#008000; 
+         }
+
+		/* These are specific to this page*/
+		.colorSwatch {
+			width: 50px;
+        	height: 50px;
+        	box-shadow: 0px 10px 20px #000000; 
+         	border-radius:10px;
+
+		}
+        #siteColorBase {
+        	background-color: #6A955B;
+        	
+        }
+        #siteColorHighlight {
+        	background-color: #008000;
+
+        }
+	  
+        #siteContrastHighlight {
+        	background-color: #E19F7E;
+        }
+        #siteContrastBase {
+        	background-color: #624232;
+        }
+
+
+
+	</style>
+
+</head>
+<body>
+<div class="main-wrapper">
+	<header class="main-header">
+		<h1 class="main-logo"><a href="#">SLEAMER.COM</a></h1>
+		<ul class="main-nav">
+			<li><a href="#">TECHNICAL</a></li>
+			<li><a href="#">PAINTINGS</a></li>
+			<li><a href="#">RETAIL ART</a></li>
+			<li><a href="#">MURALS</a></li>
+			<li><a href="#">ABOUT</a></li>
+			<li><a href="#">CONTACT</a></li>
+		</ul>
+	</header>
+		<div class="box">
+			<p>Regular text font-face is "Play". Headers and Navigation 
+				is in <span style="font-family: 'IM Fell English SC', serif;" >"IM Fell English SC"</span>.  Both are Google Fonts.</p>
+			<p>The style of the site is fairly minimalistic and toned down such that the paintings/art content show more vividly.  Green is the predominate hue, while call outs are in a reddish tone.  All corners are rounded to a border-radius: 10px and all backgrounds are black except for the body tag.  All borders lines are 2px and NOT pure white but rather a slight offwhite (#a1a1a1).  Box-shadow property is used sparingly to call out certain sections (ie. header) box-shadow: 0px 10px 20px #000000; </p>
+
+		</div>
+		<div class="box">
+			<div class="colorSwatch" id="siteColorBase"></div>
+			Base: #6A955B<br>rgb(106, 149, 91)<br><br> 
+			<div class="colorSwatch" id="siteColorHighlight"></div>
+			Highlight: #008000<br>rgb(0, 128, 0)<br><br>
+			<div class="colorSwatch" id="siteContrastHighlight"></div>
+			Contrast Highlight: #E19F7E<br>rgb(225, 159, 126)<br><br>
+			<div class="colorSwatch" id="siteContrastBase"></div>
+			Contrast Base: #624232<br>rgb(98, 66, 50)<br>
+		</div>
+</div>
+
+</body>
+</html>
