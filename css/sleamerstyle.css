@@ -5,20 +5,18 @@ body {
 	min-height: 2000px;
   	padding-top: 60px;
 	}
-.navbar{
+.navbar-nav{
 	background-color: #000000;
     border:2px solid #a1a1a1;
     border-radius:10px;
     box-shadow: 0px 10px 20px #000000;
     font-family: 'IM Fell English SC', serif;
     font-size: 1.1em;
+    color: #6A955B;
 
 }
-/*.nav{
-
-	font-family: 'IM Fell English SC', serif;
-	
-}*/
+.navbar-nav{
+}
 .row,
 .nav,
 .nav-pills li {
