@@ -3,41 +3,101 @@ body {
 	font-family: 'Play', sans-serif;
 	color: #6A955B;
 	min-height: 2000px;
-  	padding-top: 60px;
+  	padding-top: 70px;
 	}
-.navbar-nav{
+
+h2 {
+	font-family: 'IM Fell English SC', serif;
+}
+
+/*SAL: Dissapearing Navbar fix -- yes...cargo coded*/
+
+.affix,
+.navbar-fixed-top
+{
+-webkit-transform: scale3d(1,1,1);
+}
+
+.row
+ {
 	background-color: #000000;
     border:2px solid #a1a1a1;
     border-radius:10px;
-    box-shadow: 0px 10px 20px #000000;
+    box-shadow: 0px 10px 20px #000000;	
+    padding:10px 20px;
+}
+
+.nav, 
+.nav-brand {
     font-family: 'IM Fell English SC', serif;
-    font-size: 1.1em;
-    color: #6A955B;
+    font-size: 1.2em;
+	}
 
-}
-.navbar-nav{
-}
-.row,
-.nav,
-.nav-pills li {
+.navli
+{
 	background-color: #000000;
     border:2px solid #a1a1a1;
     border-radius:10px;
     box-shadow: 0px 10px 20px #000000;
-	}
-.row,
-.nav-brand
-	{
-	padding:10px 20px;
-    }
-.nav li a{
-		    color:#6A955B; 
-         	text-decoration: none;
-         	text-align: center; 
-		}
-.nav li a:hover { 
-         color:#008000;
-         background-color: #000000; 
-         }
+}
 
-.active{}
+.navbar-inverse {
+	background-color: #000000;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #6A955B;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #008000;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-text {
+  color: #6A955B;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #6A955B;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #008000;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #008000;
+  background-color: #080808;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #008000;
+  background-color: Transparent;
+}
+
+.dropdown-menu{
+
+	background-color: #000;
+	border-radius: 10px;
+	border:2px solid #a1a1a1;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #008000;
+  text-decoration: none;
+  background-color: #a1a1a1;
+}
+
+.dropdown-menu > li > a {
+  color: #6A955B;
+}
+
+.container{
+border:2px solid #a1a1a1;
+  margin-right: auto;
+  margin-left: auto;
+}
