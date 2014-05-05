@@ -4,26 +4,35 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sleamer.com</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-    <!-- Bootstrap -->
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <title>Seth Leamer Technical Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- Custom styles for this template -->
+    <link href="css/navbar-fixed-top.css" rel="stylesheet">
+    
+    <!-- Custom styles for page template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-<!-- SAL: Link to sleamer.com customized styles  -->
-    <link href="css/sleamerstyle.css" rel="stylesheet">
-<!-- SAL: Link to Google fonts  -->
-    <link href='http://fonts.googleapis.com/css?family=IM+Fell+English+SC|Play' rel='stylesheet' type='text/css'>
   </head>
-  <body data-spy="scroll">
 
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <body data-spy="scroll" data-target="#scrolling">
+
+    <!-- Fixed navbar -->
+    <nav id="scrolling" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -32,119 +41,98 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="images/favicon.png">&nbsp;&nbsp;SLEAMER.COM</a>
+          <a class="navbar-brand" href="#">SLeamer: Technical Portfolio</a>
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-      <!-- class="active" SAL: might need this for scrollspy -->     
-            <li class="navli"><a href="#">TECHNICAL</a></li>
-            <li class="dropdown navli">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAINTINGS <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#figurines">Figurines</a></li>
-                <li><a href="#animals">Animals</a></li>
-                <li><a href="#landscapes">Landscapes</a></li>
-                <li><a href="#figures">Figures</a></li>
-                <li><a href="#drawings">Drawings</a></li>
-              </ul>
-            </li>
-            <li class="dropdown navli">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">RETAIL ART <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">2-Dimensional</a></li>
-                <li><a href="#">3-Dimensional</a></li>
-              </ul>
-            </li>
-            <li class="navli"><a href="#">MURALS</a></li>
-            <li class="navli"><a href="#">ABOUT</a></li>
-            <li class="navli"><a href="contact.html">CONTACT</a></li>
+        <div class="navbar-collapse collapse"> 
+
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#wordpress">WordPress</a></li>
+            <li class="active"><a href="#modx">MODx</a></li>
+            <li><a href="#static">Static</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
+
         </div><!--/.nav-collapse -->
       </div>
-    </div>
-
+    </nav>
 
     <div class="container">
+<!-- WordPress Site -->
+    <div class="jumbotron">
       <div class="row">
-        <div class="col-md-12"><img src="images/color_chart3.jpg" class="img-responsive">
+        <div class="col-md-12 ">
+            <h1 id="wordpress">WordPress</h1>
         </div>
-      </div>
-      <br>
-      <div class="row">
-        <div class="col-md-7"><img src="images/r5d4_papa_smurf.jpg" class="img-responsive">
+        <div class="col-md-6 ">
+            <img src="images/wordpress.JPG" alt="" class="img-responsive">
         </div>
-        <div class="col-md-5">I am a fine artist who also has over ten years of applied artistic retail experience at Trader Joe's. I create and direct the creation of murals, paintings, displays, and sculptures that effectively market a wide range of products while creating a positive shopping experience. Additionally, I have designed and executed commissioned murals and paintings for other retailers and clients. I am very experienced at project management and leading diverse teams to meet and exceed client goals. I bring to all of my work a passion for the intersection of art and science, especially color. I am extremely knowledgeable about optimal ways to utilize pigments, paints, and color attributes to create long-lasting and powerful images, and I have a strong facility for incorporating text and design elements to maximize layout. My ability to translate between the technical and artistic ideas of a variety of stakeholders and audiences is a strength. I also have experience with web development including PHP and mySQL coupled with an in depth knowledge of the Adobe Suite.
+        <div class="col-md-5 ">
+            <p>Geekhub.com is a website built using worpress as the CMS.  Fantasy, Horror, and Sci-fi are filtered to specific content templates that showcase customability in the category templates. Plugins include 'Events Manager', 'Contact Form 7', and 'Responsive Ad Ons'.  The parent theme is Parallax by CyberChimps.    
+            </p>
+            <p>Partner: Mario Torres</p>
         </div>
-      </div>
-      <!--SAL: Figurine Section -->
-      <br>
-      <div class="row">
-        <h2 id="figurines">Figurines</h2>
-      </div>
-      <br>
-      <div class="row">
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-      </div>
-      <!--SAL: Figurine Section -->
-      <br>
-      <div class="row">
-        <h2 id="animals">Animals</h2>
-      </div>
-      <br>
-      <div class="row">
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-      </div>
-      <!--SAL: Figurine Section -->
-      <br>
-      <div class="row">
-        <h2 id="landscapes">Landscapes</h2>
-      </div>
-      <br>
-      <div class="row">
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-        <div class="col-md-1"><img src="images/tn_dice.jpg" class="img-responsive"></div>
-      </div>
-
-
-
-
-
       </div>
     </div>
+<!-- Modx Site-->
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-md-12 ">
+            <h1 id="modx">MODx</h1>
+        </div>
+        <div class="col-md-6 ">
+            <img src="images/modx.JPG" alt="" class="img-responsive">
+        </div>
+        <div class="col-md-5">
+            <p>A new age massage clinic website built on the backbone of MODx.  getResources and Wayfinder were added snippits, while most files (Chunks, Templates, and Template Variables) were set to static and saved under git's version controls.  Database exports were saved as flat files and versioned as well.  </p>
+            <p>Partner: Xander Taylor</p>
+        </div>
+      </div>
     </div>
-<!-- Bootstrap javascript and jquery includes -->
+<!-- Static-->
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-md-12 ">
+            <h1 id="static">Static</h1>
+        </div>
+        <div class="col-md-6 ">
+            <img src="images/static.JPG" alt="" class="img-responsive">
+        </div>
+        <div class="col-md-5 ">
+            <p>Old School Website creation through a journal. Re-examining the fundamentals of html, css and a bit of javascript and exposure to git and github.</p>
+            <p>Partners: Grant Stampfli and Richard Chapman</p>
+        </div>
+      </div>
+    </div>
+
+<!-- Contact-->
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-md-12 ">
+            <h1 id="contact">Contact Me</h1>
+        </div>
+        <div class="col-md-6 ">
+            <p><a href="https://www.linkedin.com/pub/seth-leamer/35/223/65">LINKEDIN PROFILE</a></p>
+        </div>
+        <div class="col-md-5 ">
+            <form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+      </div>
+    </div>
+
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
