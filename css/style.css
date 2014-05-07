@@ -1,3 +1,20 @@
+/*SAL: CSS attributes that are not covered in Bootstrap's variables*/
+/*SAL: Needed to set the Bacground image*/
 body { 
          background-image: url('../images/background_green.jpg');
+         padding-top: 60px;
       }
+
+/*SAL: Jumbotron border and drop shadow*/
+.jumbotron {
+	border:2px solid #a1a1a1;
+	box-shadow: 0px 10px 20px #000000;
+}
+
+/*SAL: This creates the cirular pill shapes around the nav items*/
+.navli {
+	background-color: #000000;
+    border:2px solid #a1a1a1;
+    border-radius:10px;
+    box-shadow: 0px 10px 20px #000000;
+}
