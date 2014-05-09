@@ -37,6 +37,11 @@
         border:2px solid #a1a1a1;
       }
 
+/*SAL: custom text for the about section*/
+p.abouttext{
+      font-size: 1.1em;
+    }
+
       /*SAL: This creates the cirular pill shapes around the nav items*/
       .navli {
       	background-color: #000000;
@@ -66,14 +71,4 @@
         color: #624232;
       }
 
-/*SAL: styling of the accordion*/
-.ui-accordion: {
-  background-color: blue;
-}
 
-.ui-accordion-header {}
-
-/*ui-accordion: The outer container of the accordion.
-ui-accordion-header: The headers of the accordion. 
-The headers will additionally have a ui-accordion-icons class if they contain icons.
-ui-accordion-content: The content panels of the accordion.*/
