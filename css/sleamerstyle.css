@@ -1,7 +1,8 @@
-/*SAL: CSS attributes that are not covered in Bootstrap's variables*/
-      body { 
+/*SAL: CSS attributes that are not covered in Bootstrap's variables, also augments cover.css*/
+      html,
+      body {
+              height: 100%; 
                background-image: url('../images/background_green.jpg');
-               padding-top: 50px;
             }
 
       /* SAL: Class for links on a dark or light backgrounds*/
@@ -24,10 +25,10 @@
       }
 
       /*SAL: in case a row is needed in Non-Jumbotron class*/
-      .row {
+/*.row {
         border-radius:10px;  
         background-color: #000000;
-      }
+      }*/
 
       /*SAL: custom styling to Jumbotron*/
       .jumbotron{
@@ -37,12 +38,57 @@
         border:2px solid #a1a1a1;
       }
 
+/*SAL: Boostrap landing page css from cover.css.*/
+.site-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%; /* For at least Firefox */
+    min-height: 100%;
+/*SAL: need to fix image sizing on small screen, scrap for now*/
+/*    background-image: url('../images/night_13thhour.jpg');*/
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000000;
+  }
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.colorcharttransform {
+  background-color: black;
+}
+
+body:hover .colorcharttransform {
+    background-color: #6A955B;
+    -webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
 /*SAL: custom text for the about section*/
 p.abouttext{
       font-size: 1.1em;
     }
+/*SAL: color chart headers*/
+.colorchart {
+      border-radius:10px;
+      background-color: #000000;
+      border:2px solid #a1a1a1;
+      padding: 1%;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 60px;
+}
 
-      /*SAL: This creates the cirular pill shapes around the nav items*/
+.colorchart img {
+    display: block;
+    margin: 0 auto;
+}
+
+/*SAL: This creates the circular pill shapes around the nav items*/
       .navli {
       	background-color: #000000;
         border:2px solid #a1a1a1;

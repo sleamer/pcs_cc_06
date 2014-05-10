@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Seth Leamer Technical Portfolio</title>
+    <meta name="Seth Leamer" content="Professional Website">
+    <title>Seth Leamer</title>
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu|Vollkorn' rel='stylesheet' type='text/css'>
 
@@ -14,12 +14,10 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for The fixed Nav in Bootstrap-->
-    <link href="css/navbar-fixed-top.css" rel="stylesheet"> 
-
+    <link href="css/navbar-fixed-top.css" rel="stylesheet">
     <!-- mailchimp css -->
     <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 <!--     accordian -->    
-<!--     <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css"> -->
     <link href="css/custom-theme/jquery-ui-1.10.4.custom.css" rel="stylesheet">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
@@ -50,7 +48,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="images/favicon.png">&nbsp;&nbsp; sleamer.com</a>
+          <a class="navbar-brand" href="index.html"><img src="images/favicon.png">&nbsp;&nbsp; sleamer.com</a>
         </div>
         <div class="navbar-collapse collapse"> 
 
@@ -76,8 +74,30 @@
     </nav>
 
 <!-- SAL: Landing zone -->
+<!-- SAL: colorchart header - make part of header later? -->
+<div class="row"></div><!-- SAL: needed to push the colorbar below nav -->
+  <div class="row colorchart colorcharttransform" >
+    <div class="col-md-12"><img src="images/color_chart3.jpg" class="img-responsive">
+  </div>
+  </div>
+    <!-- /SAL: colorchart header -->
+<div class="site-wrapper">
+  <div class="site-wrapper-inner">
+    <div class="row">
+      <div class="col-md-2"></div><div class="col-md-4"></div><div class="col-md-4"></div><div class="col-md-2"></div>
+    </div>
+  </div><!-- /site-wrapper-inner -->
+</div><!-- /site-wrapper -->
 <!-- SAL: /Landing zone -->
-<div class="container" id="webfolio">
+
+<div class="container">
+    <!-- SAL: colorchart header - make part of header later? -->
+    <div class="row" id="webfolio"></div><!-- SAL: needed to push the colorbar below nav -->
+    <div class="row colorchart colorcharttransform" >
+      <div class="col-md-12"><img src="images/color_chart3.jpg" class="img-responsive">
+      </div>
+    </div>
+    <!-- /SAL: colorchart header -->
 <!-- Accordian -->
     <div id="accordion">
   <!-- WordPress Site -->
@@ -129,12 +149,20 @@
                 </div>
               </div>
             </div>
-    </div><!-- /accordian -->
+    </div><!-- /accordion -->
     </div> <!-- /container -->
-  <br>
-  <div class="container">
+
+<div class="container">
 <!-- About-->
-    <div class="jumbotron" id="about">
+    <!-- SAL: colorchart header - make part of header later? -->
+    <div class="row" id="about"></div><!-- SAL: needed to push the colorbar below nav -->
+    <div class="row colorchart colorcharttransform" >
+      <div class="col-md-12"><img src="images/color_chart3.jpg" class="img-responsive">
+      </div>
+    </div>
+    <!-- /SAL: colorchart header -->
+
+    <div class="jumbotron">
       <div class="row">
         <div class="col-md-12 ">
             <h1>About</h1>
@@ -149,7 +177,14 @@
     </div>
 
 <!-- Contact-->
-    <div class="jumbotron" id="contact">
+    <!-- SAL: colorchart header - make part of header later? -->
+    <div class="row" id="contact"></div><!-- SAL: needed to push the colorbar below nav -->
+    <div class="row colorchart colorcharttransform" >
+      <div class="col-md-12"><img src="images/color_chart3.jpg" class="img-responsive">
+      </div>
+    </div>
+    <!-- /SAL: colorchart header -->
+    <div class="jumbotron">
       <div class="row">
         <div class="col-md-12 ">
             <h1>Contact Me</h1>
@@ -377,6 +412,20 @@
     </div><!-- /mail chimp jumbotron -->
 
     </div> <!-- /container -->
+<!-- SAL: push the page size larger so contact has room to scroll up -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 <!-- SAL: tried this as call in sleamer.js, but not working, check out logic later. -->  
     <script>
     $( "#accordion" ).accordion();
