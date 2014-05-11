@@ -6,15 +6,22 @@
 
 /* Custom default button */
 .btn-default,
-.btn-default:hover,
+/*.btn-default:hover,*/
 .btn-default:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #6A955B;
+  background-color: #000000;
   border:2px solid #a1a1a1;
 }
 
-
+.btn-default:hover {
+    background-color: #6A955B;
+    -webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
 /*
  * Base structure
  */
