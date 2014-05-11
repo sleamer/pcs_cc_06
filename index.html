@@ -21,8 +21,9 @@
     <link href="css/custom-theme/jquery-ui-1.10.4.custom.css" rel="stylesheet">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-<!--     accordian -->
-   <!-- Custom styles for sleamer.com -->
+<!-- Cover.css from bootstrap -->
+  <link href="css/cover.css" rel="stylesheet">
+<!-- Custom styles for sleamer.com -->
     <link href="css/sleamerstyle.css" rel="stylesheet">
    
 
@@ -54,6 +55,7 @@
 
 
           <ul class="nav navbar-nav navbar-right">
+            <li class="navli"><a href="index.html">HOME</a></li>
             <li class="navli"><a href="#webfolio">WEBFOLIO</a></li>
 <!-- SAL: uncomment this and use if a dropdown is needed later -->
 <!--             <li class="dropdown">
@@ -74,18 +76,18 @@
     </nav>
 
 <!-- SAL: Landing zone -->
-<!-- SAL: colorchart header - make part of header later? -->
-<div class="row"></div><!-- SAL: needed to push the colorbar below nav -->
-  <div class="row colorchart colorcharttransform" >
-    <div class="col-md-12"><img src="images/color_chart3.jpg" class="img-responsive">
-  </div>
-  </div>
-    <!-- /SAL: colorchart header -->
+<div class="row pushbelownav"></div><!-- SAL: needed to push the element below nav -->
 <div class="site-wrapper">
   <div class="site-wrapper-inner">
-    <div class="row">
-      <div class="col-md-2"></div><div class="col-md-4"></div><div class="col-md-4"></div><div class="col-md-2"></div>
-    </div>
+    <div class="cover-container">
+          <div class="inner cover">
+            <h1 class="cover-heading">Seth Leamer - Portfolio</h1>
+            <p class="lead">Howdy and welcome!  I'm a tech/art hybrid that loves to learn all there is about color and frontend web development.<br>Browse about or just contact me.</p>
+            <p class="lead">
+              <a href="#contact" class="btn btn-lg btn-default">Contact</a>
+            </p>
+          </div>
+    </div><!-- /cover-container -->
   </div><!-- /site-wrapper-inner -->
 </div><!-- /site-wrapper -->
 <!-- SAL: /Landing zone -->
