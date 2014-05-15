@@ -1,0 +1,47 @@
+/*SAL: controls text on large screens*/
+@media screen and (min-width: 1000px) {
+.jumbotron p {
+    font-size: 1.2em;
+  }
+}
+
+/*SAL: controls the landing image*/
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
+
+/*SAL: For high resolution or retinal displays*/
+@media screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi) {
+/*SAL: serve higher resolution images*/
+	.aboutimg {
+		/*SAL: Hmm, not sure how to go about changing an image call and not a div background -- Nim?*/
+	}
+
+}
